@@ -142,9 +142,6 @@ func Load() (rst []LoadResult, err error) {
 }
 
 func loadLangPacks(filenameWithPath string, separator string) (langTag string, estimate int, reality int) {
-	if fileExist(filenameWithPath) {
-		return
-	}
 	file, err := os.Open(filenameWithPath)
 	if err != nil {
 		return
@@ -180,9 +177,6 @@ func loadLangPacks(filenameWithPath string, separator string) (langTag string, e
 }
 
 func loadLangPacksbyMemory(filenameWithPath string, separator string, m map[int]string) (langTag string, estimate int, reality int) {
-	if fileExist(filenameWithPath) {
-		return
-	}
 	file, err := os.Open(filenameWithPath)
 	if err != nil {
 		return
