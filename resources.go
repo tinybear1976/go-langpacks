@@ -39,7 +39,6 @@ var (
 )
 
 func init() {
-	version = "0.8.0"
 	loadmode = InMemory
 	lps_path = "./"
 	lps_suffix = ".lps"
