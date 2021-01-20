@@ -1,4 +1,4 @@
-package go_langpacks
+package langpacks
 
 import (
 	"bufio"
