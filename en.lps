@@ -1,0 +1,16 @@
+en
+41501 ~ the user name is wrong or does not exist.
+41502 ~ wrong password.
+41503 ~ an error occurred while updating the token.
+41504 ~ The required post data was not submitted.
+41505 ~ Attempt to get token failed or token is empty.
+41506 ~ Attempt to get current user information failed
+1000  ~ missing data segment.
+1001  ~ data marshal error.
+1002  ~ data unmarshal error.
+1500  ~ error trying to connect to database.
+1502  ~ error trying to connect to database.
+2000  ~ Invalid upload form format.
+2001  ~ Failed to prepare to create local folder for upload file.
+2002  ~ Failed to save the uploaded file.
+9000  ~ the attachment ID to be deleted is empty.
